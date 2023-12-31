@@ -31,6 +31,7 @@
               jdk21
               maven
               gradle
+              gh
             ];
             inputsFrom = [
             ];
