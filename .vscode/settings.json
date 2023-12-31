@@ -1,0 +1,34 @@
+{
+  "remote.localPortHost": "allInterfaces",
+  "java.configuration.runtimes": [
+    {
+      "name": "JDK21",
+      "path": "/nix/store/884fbn646q1crxlqf805m7qzj8fgbd76-openjdk-21+35",
+      "default": true
+    }
+  ],
+  "java.jdt.ls.java.home": "/nix/store/884fbn646q1crxlqf805m7qzj8fgbd76-openjdk-21+35",
+  "spring-boot.ls.java.home": "/nix/store/884fbn646q1crxlqf805m7qzj8fgbd76-openjdk-21+35",
+  "spring-boot.ls.logfile": "/tmp/bootls.log",
+  "java.trace.server": "verbose",
+  "nixEnvSelector.nixFile": "${workspaceRoot}/shell.nix",
+  "java.compile.nullAnalysis.mode": "automatic",
+  "java.project.encoding": "ignore",
+  "java.import.projectSelection": "automatic",
+  "java.dependency.packagePresentation": "hierarchical",
+  "editor.fontFamily": "'JetBrainsMono Nerd Font'",
+  "editor.codeLensFontFamily": "'JetBrainsMono Nerd Font'",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
+  "remote.autoForwardPortsSource": "process",
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "redHatDependencyAnalytics.mvn.executable.path": "/nix/store/w2m363m6lwk1mrsy6y9m5nj2zv10j06k-apache-maven-3.9.5/bin/mvn",
+  "maven.executable.path": "/nix/store/w2m363m6lwk1mrsy6y9m5nj2zv10j06k-apache-maven-3.9.5/bin/mvn",
+  "maven.view": "hierarchical",
+  "java.format.enabled": true,
+  "java.format.settings.url": "https://gist.githubusercontent.com/ICE-GB/3561195884c4ce3d38d504409717e1a4/raw/1d6eefbffc283456bd4e5a7cf1bba9b6a8a67124/eclipse-java-idea-style.xml",
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  }
+}
