@@ -13,4 +13,5 @@ node_modules/
 /app/gradle.properties
 package-lock.json
 .idea/
+.direnv/
 

@@ -27,9 +27,10 @@
           default = pkgs.mkShell {
             nativeBuildInputs = with pkgs; [
               git
-              jdk8
+              jdk17
               jdk21
               maven
+              gradle
             ];
             inputsFrom = [
             ];

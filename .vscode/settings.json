@@ -2,14 +2,16 @@
   "remote.localPortHost": "allInterfaces",
   "java.configuration.runtimes": [
     {
-      "name": "JDK21",
-      "path": "/nix/store/884fbn646q1crxlqf805m7qzj8fgbd76-openjdk-21+35",
+      "name": "JavaSE-17",
+      "path": "/nix/store/0ng75g0vl4zphyg10q3ramyk0hhdyws8-openjdk-17.0.7+7/lib/openjdk",
       "default": true
+    },
+    {
+      "name": "JavaSE-21",
+      "path": "/nix/store/884fbn646q1crxlqf805m7qzj8fgbd76-openjdk-21+35/lib/openjdk"
     }
   ],
   "java.jdt.ls.java.home": "/nix/store/884fbn646q1crxlqf805m7qzj8fgbd76-openjdk-21+35",
-  "spring-boot.ls.java.home": "/nix/store/884fbn646q1crxlqf805m7qzj8fgbd76-openjdk-21+35",
-  "spring-boot.ls.logfile": "/tmp/bootls.log",
   "java.trace.server": "verbose",
   "nixEnvSelector.nixFile": "${workspaceRoot}/shell.nix",
   "java.compile.nullAnalysis.mode": "automatic",
@@ -30,5 +32,6 @@
   "java.format.settings.url": "https://gist.githubusercontent.com/ICE-GB/3561195884c4ce3d38d504409717e1a4/raw/1d6eefbffc283456bd4e5a7cf1bba9b6a8a67124/eclipse-java-idea-style.xml",
   "[java]": {
     "editor.defaultFormatter": "redhat.java"
-  }
+  },
+  "java.import.gradle.java.home": "/nix/store/0ng75g0vl4zphyg10q3ramyk0hhdyws8-openjdk-17.0.7+7/lib/openjdk"
 }
